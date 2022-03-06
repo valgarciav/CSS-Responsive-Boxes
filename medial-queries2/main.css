@@ -1,3 +1,30 @@
 body {
   background: papayawhip;
 }
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.boxb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 90vh;
+  width: auto;
+}
+
+header,
+footer,
+.boxb,
+aside {
+  margin: 1em;
+  width: auto;
+  height: 15vh;
+}

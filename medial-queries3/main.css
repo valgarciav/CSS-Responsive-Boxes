@@ -1,3 +1,33 @@
 body {
   background: peachpuff;
 }
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+}
+aside {
+  flex-grow: 5;
+  height: 15em;
+  flex-direction: row;
+  align-items: center;
+}
+@media (min-width: 600px) {
+  .boxes {
+    flex-direction: row;
+  }
+}
